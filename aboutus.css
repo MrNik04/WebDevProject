@@ -1,0 +1,50 @@
+body{
+    background-size: cover;
+    background-attachment: scroll;
+    background-image: url("smoke.jpeg");
+}
+h2{
+    z-index: 2;
+    /* margin-top: 10%; */
+    margin-left: 10%;
+    font-style: oblique;
+    font-size: 40PX;
+}
+p{
+    margin-left: 10%;
+    z-index: 2;
+    max-width: 299px;
+}
+img{
+    float: right;
+    /* margin-top: 15%; */
+    animation: m 2s linear;
+    opacity: 100%;
+
+}
+.g{
+    overflow: auto;
+    color: black;
+    animation: an 2s ease-in-out forwards;
+}
+@keyframes an {
+    from{
+        color: transparent;
+    }
+    to{
+        color: black
+    }
+
+}
+@keyframes m {
+    from{
+        opacity: 10%;
+    }
+    to{
+        opacity: 100%;
+    }
+}
+.p{
+    /* background-color:antiquewhite; */
+    margin-right: 0%;
+}
